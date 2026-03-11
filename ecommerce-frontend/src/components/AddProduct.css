@@ -1,0 +1,65 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f9;
+}
+
+.add-product-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:90vh;
+}
+
+.product-card{
+  background:white;
+  padding:30px;
+  border-radius:10px;
+  width:400px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.product-card h2{
+  text-align:center;
+  margin-bottom:20px;
+  color:#333;
+}
+
+.form-group{
+  display:flex;
+  flex-direction:column;
+  margin-bottom:15px;
+}
+
+.form-group label{
+  font-weight:600;
+  margin-bottom:5px;
+  color:#555;
+}
+
+.form-group input{
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:6px;
+  font-size:14px;
+}
+
+.form-group input:focus{
+  outline:none;
+  border-color:#007bff;
+}
+
+.submit-btn{
+  width:100%;
+  padding:12px;
+  background:#007bff;
+  color:white;
+  border:none;
+  border-radius:6px;
+  font-size:16px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.submit-btn:hover{
+  background:#0056b3;
+}
